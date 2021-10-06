@@ -1,0 +1,72 @@
+
+Execution of 1 workers started at 2021-10-06T13:11:09.207Z
+
+2021-10-06T13:11:09.580Z INFO @wdio/cli:launcher: Run onPrepare hook
+2021-10-06T13:11:09.581Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2021-10-06T13:11:09.581Z INFO @wdio/local-runner: Start worker 0-0 with arg: run,wdio.conf.js
+[0-0] [90m2021-10-06T13:11:09.933Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-0] RUNNING in chrome - /test/specs/example.e2e.js
+[0-0] [90m2021-10-06T13:11:10.836Z[39m [96mINFO[39m [97mdevtools:puppeteer[39m: Initiate new session using the DevTools protocol
+[0-0] [90m2021-10-06T13:11:10.837Z[39m [96mINFO[39m [97mdevtools[39m: Launch Google Chrome with flags: --enable-automation --disable-popup-blocking --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --no-default-browser-check --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --force-fieldtrials=*BackgroundTracing/default/ --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+[0-0] [90m2021-10-06T13:11:11.399Z[39m [96mINFO[39m [97mdevtools[39m: Connect Puppeteer with browser on port 60953
+[0-0] [90m2021-10-06T13:11:12.958Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m navigateTo("https://www.seleniumeasy.com/test/dynamic-data-loading-demo.html")
+[0-0] [90m2021-10-06T13:11:14.544Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m null
+[0-0] [90m2021-10-06T13:11:14.548Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m findElement("css selector", "#save")
+[0-0] [90m2021-10-06T13:11:14.551Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+[0-0] [90m2021-10-06T13:11:14.558Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m elementClick("ELEMENT-1")
+[0-0] [90m2021-10-06T13:11:14.592Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m null
+[0-0] [90m2021-10-06T13:11:14.595Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m findElement("css selector", "#loading")
+[0-0] [90m2021-10-06T13:11:14.596Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+[0-0] [90m2021-10-06T13:11:14.600Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m getElementText("ELEMENT-2")
+[0-0] [90m2021-10-06T13:11:14.605Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m  loading...
+[0-0] [90m2021-10-06T13:11:15.101Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m findElement("css selector", "#loading")
+[0-0] [90m2021-10-06T13:11:15.102Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+[0-0] [90m2021-10-06T13:11:15.106Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m getElementText("ELEMENT-3")
+[0-0] [90m2021-10-06T13:11:15.109Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m  loading...
+[0-0] [90m2021-10-06T13:11:15.597Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m findElement("css selector", "#loading")
+[0-0] [90m2021-10-06T13:11:15.598Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+[0-0] [90m2021-10-06T13:11:15.601Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m getElementText("ELEMENT-4")
+[0-0] [90m2021-10-06T13:11:15.604Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m  loading...
+[0-0] [90m2021-10-06T13:11:16.100Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m findElement("css selector", "#loading")
+[0-0] [90m2021-10-06T13:11:16.102Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+[0-0] [90m2021-10-06T13:11:16.106Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m getElementText("ELEMENT-5")
+[0-0] [90m2021-10-06T13:11:16.109Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m 
+[0-0] 
+[0-0] First Name : Pearl
+[0-0] 
+[0-0] Last Name : Moreno
+[0-0] [90m2021-10-06T13:11:16.111Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m findElement("css selector", "#loading")
+[0-0] [90m2021-10-06T13:11:16.112Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+[0-0] [90m2021-10-06T13:11:16.115Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m getElementText("ELEMENT-6")
+[0-0] [90m2021-10-06T13:11:16.117Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m 
+[0-0] 
+[0-0] First Name : Pearl
+[0-0] 
+[0-0] Last Name : Moreno
+[0-0] Name is: 
+[0-0] 
+[0-0] First Name : Pearl
+[0-0] 
+[0-0] Last Name : Moreno
+[0-0] [90m2021-10-06T13:11:16.120Z[39m [96mINFO[39m [97mdevtools[39m: [35mCOMMAND[39m deleteSession()
+[0-0] [90m2021-10-06T13:11:16.120Z[39m [96mINFO[39m [97mdevtools[39m: [36mRESULT[39m null
+[0-0] PASSED in chrome - /test/specs/example.e2e.js
+2021-10-06T13:11:16.268Z INFO @wdio/cli:launcher: Run onComplete hook
+
+ "spec" Reporter:
+------------------------------------------------------------------
+[Chrome 94.0.4606.71 darwin #0-0] Running: Chrome (v94.0.4606.71) on darwin
+[Chrome 94.0.4606.71 darwin #0-0] Session ID: 19679d74-4ffb-4cef-abb2-f3e04159ec89
+[Chrome 94.0.4606.71 darwin #0-0]
+[Chrome 94.0.4606.71 darwin #0-0] » /test/specs/example.e2e.js
+[Chrome 94.0.4606.71 darwin #0-0] Working with Tables
+[Chrome 94.0.4606.71 darwin #0-0]    [32m✓[39m should navigate Dynamic data page
+[Chrome 94.0.4606.71 darwin #0-0]
+[Chrome 94.0.4606.71 darwin #0-0] [32m1 passing (3.1s)[39m
+
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:07 
+
+2021-10-06T13:11:16.269Z INFO @wdio/local-runner: Shutting down spawned worker
+2021-10-06T13:11:16.521Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2021-10-06T13:11:16.522Z INFO @wdio/local-runner: shutting down
